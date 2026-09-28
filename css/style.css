@@ -6,9 +6,9 @@
 
 body {
     margin: auto;
-    background-color: #E6F9BC;
+    background-color: #CCD0CF;
     font-family: 'Karla', sans-serif;
-    color: #3A111C;
+    color: #06141B;
 }
 
 header {
@@ -18,7 +18,7 @@ header {
     justify-content: space-between;
     padding: 20px 50px;
     gap: 10px;
-    background-color: #bcdea5;
+    background-color: #4A5C6A;
 }
 
 h1 {
@@ -26,9 +26,9 @@ h1 {
     font-size: 48px;
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    color: #E6F9BC;
+    color: #CCD0CF;
     letter-spacing: 3px;
-    text-shadow: 3px 3px 0px #83988E;
+    text-shadow: 3px 3px 0px #253745;
 }
 
 nav {
@@ -40,25 +40,25 @@ nav {
 }
 
 nav a {
-    color: #3A111C;
+    color: #06141B;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    background-color: #E6F9BC;
-    border: 2px solid #E6F9BC;
+    background-color: #CCD0CF;
+    border: 2px solid #CCD0CF;
     border-radius: 10px;
     padding: 10px 20px;
     transition: 0.2s;
 }
 
 nav a:hover {
-    background-color: #83988E;
-    color: #E6F9BC;
-    border-color: #83988E;
+    background-color: #253745;
+    color: #CCD0CF;
+    border-color: #253745;
 }
 nav a.ativo {
-    background-color: #83988E;
-    color: #E6F9BC;
-    border-color: #83988E;
+    background-color: #253745;
+    color: #CCD0CF;
+    border-color: #253745;
 }
 main {
     max-width: 1000px;
@@ -73,13 +73,13 @@ h2 {
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     font-weight: 700;
-    color: #574951;
+    color: #11212D;
     text-align: center;
 }
 
 h3 {
     font-family: 'Poppins', sans-serif;
-    color: #83988E;
+    color: #253745;
     margin-top: 15px;
 }
 
@@ -95,18 +95,18 @@ ul li {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     line-height: 1.6;
-    color: #3A111C;
+    color: #06141B;
 }
 
 .secao-tecnologias {
-    background-color: #3A111C;
+    background-color: #06141B;
     border-radius: 24px;
     padding: 40px;
 }
 
 .titulo-tec {
     text-align: left;
-    color: #E6F9BC;
+    color: #CCD0CF;
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
     font-weight: 700;
@@ -123,8 +123,8 @@ ul li {
 .card {
     flex: 1 1 150px;
     max-width: 180px;
-    background-color: #574951;
-    border: 1px solid #574951;
+    background-color: #11212D;
+    border: 1px solid #11212D;
     border-radius: 14px;
     padding: 20px;
     text-align: center;
@@ -132,7 +132,7 @@ ul li {
 }
 
 .card:hover {
-    border-color: #83988E;
+    border-color: #253745;
     transform: translateY(-3px);
 }
 
@@ -140,7 +140,7 @@ ul li {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 15px;
-    color: #E6F9BC;
+    color: #CCD0CF;
     margin: 0 0 15px;
 }
 
@@ -167,8 +167,8 @@ ul li {
     height: 260px;
     object-fit: cover;
     border-radius: 50%;
-    border: 6px solid #83988E;
-    box-shadow: 0 10px 25px rgba(58, 17, 28, 0.25);
+    border: 6px solid #253745;
+    box-shadow: 0 10px 25px rgba(6, 20, 27, 0.25);
 }
 
 .hero-texto {
@@ -176,7 +176,7 @@ ul li {
 }
 
 .pequeno-titulo {
-    color: #83988E;
+    color: #253745;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -189,7 +189,7 @@ ul li {
     font-size: clamp(2.2rem, 5vw, 3.5rem);
     line-height: 1.1;
     margin-bottom: 20px;
-    color: #3A111C;
+    color: #06141B;
 }
 
 .botoes-hero {
@@ -201,8 +201,8 @@ ul li {
 
 .botao-pill {
     display: inline-block;
-    background-color: #3A111C;
-    color: #E6F9BC;
+    background-color: #06141B;
+    color: #CCD0CF;
     padding: 14px 28px;
     border-radius: 30px;
     font-weight: bold;
@@ -212,19 +212,19 @@ ul li {
 }
 
 .botao-pill:hover {
-    background-color: #83988E;
+    background-color: #253745;
     transform: translateY(-2px);
 }
 
 .secao-contato {
-    background-color: #3A111C;
+    background-color: #06141B;
     border-radius: 24px;
     padding: 50px 40px;
     text-align: center;
 }
 
 .contato-titulo {
-    color: #E6F9BC;
+    color: #CCD0CF;
     font-family: 'Poppins', sans-serif;
     font-size: clamp(2rem, 5vw, 3rem);
     font-weight: 800;
@@ -232,7 +232,7 @@ ul li {
 }
 
 .contato-sub {
-    color: #BCDEA5;
+    color: #9BA8AB;
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     max-width: 550px;
@@ -249,8 +249,8 @@ ul li {
 .contato-card {
     flex: 1 1 200px;
     max-width: 230px;
-    background-color: #574951;
-    border: 1px solid #574951;
+    background-color: #11212D;
+    border: 1px solid #11212D;
     border-radius: 14px;
     padding: 25px 20px;
     text-align: center;
@@ -258,7 +258,7 @@ ul li {
 }
 
 .contato-card:hover {
-    border-color: #83988E;
+    border-color: #253745;
     transform: translateY(-3px);
 }
 
@@ -269,7 +269,7 @@ ul li {
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #BCDEA5;
+    color: #9BA8AB;
     margin-bottom: 15px;
 }
 
@@ -283,7 +283,7 @@ ul li {
 .contato-valor {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color: #E6F9BC;
+    color: #CCD0CF;
     font-size: 15px;
     margin-bottom: 12px;
     word-break: break-word;
@@ -292,12 +292,12 @@ ul li {
 .contato-card a {
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
-    color: #BCDEA5;
+    color: #9BA8AB;
     text-decoration: none;
 }
 
 .contato-card a:hover {
-    color: #83988E;
+    color: #253745;
 }
 
 .album-amigos {
@@ -314,12 +314,12 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #bcdea5;
-    color: #fff;
+    background-color: #4A5C6A;
+    color: #CCD0CF;
     padding: 20px;
     margin-top: 40px;
     text-align: center;
-    text-shadow: 3px 3px 0px #83988E;
+    text-shadow: 3px 3px 0px #253745;
 }
 
 @media (max-width: 700px) {
